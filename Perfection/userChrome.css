@@ -2,6 +2,10 @@ body {
   --zen-toolbar-height: 54px;
 }
 
+#nav-bar {
+  border-block-start: none !important;
+}
+
 .urlbar-background {
   background: rgba(255, 255, 255, 0.1);
   margin-inline-end: 0.25em;
@@ -25,7 +29,7 @@ body {
 }
 
 .tab-label {
-  font-size: 1.25em;
+  font-size: 1rem;
 }
 
 #zen-sidebar-top-buttons-customization-target {
